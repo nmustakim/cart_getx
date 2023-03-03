@@ -26,7 +26,7 @@ class ProductsScreen extends StatelessWidget {
                   title: Text(
                     Product.products[index].name,
                   ),
-                  subtitle: Text('${Product.products[index].price}.00\$'),
+                  subtitle: Text('${Product.products[index].price}\$'),
                   trailing: IconButton(
                       onPressed: () =>
                           cartController.addProduct(Product.products[index]),

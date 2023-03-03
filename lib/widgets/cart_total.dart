@@ -13,7 +13,7 @@ final CartController cartController = Get.find();
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
           Text('Total',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
-          Text(cartController.total,style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),)
+          Text('${cartController.total}',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),)
         ],),
       ),
     ));

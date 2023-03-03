@@ -21,7 +21,7 @@ get products => _products;
   }
   get subTotal => _products.entries.map((e) => e.key.price*e.value).toList();
 
-  get total => _products.entries.map((e) => e.key.price*e.value).toList().reduce((value, element) => value+element).toStringAsFixed(2);
+  get total => _products.entries.map((e) => e.key.price*e.value).toList().reduce((value, element) => value + element).toStringAsFixed(2);
 
 
 
