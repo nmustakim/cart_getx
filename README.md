@@ -1,4 +1,4 @@
-# e_commerce
+# cart management using getx
 
 A new Flutter project.
 
